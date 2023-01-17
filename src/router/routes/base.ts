@@ -7,6 +7,7 @@ const print = () => import('@/views/demo/print.vue');
 const draggable = () => import('@/views/demo/draggable.vue');
 const photographVue2 = () => import('@/views/demo/photographVue2.vue');
 const photographVue3 = () => import('@/views/demo/photographVue3.vue');
+const Viewerjs = () => import('@/views/demo/viewerjs.vue');
 const baseRoute: RouteRecordRaw[] = [
   {
     path: '/',
@@ -83,8 +84,16 @@ const baseRoute: RouteRecordRaw[] = [
     meta: {
       title: 'photographVue3',
     }
+  },
+  {
+    path: '/viewerjs',
+    name: 'viewerjs',
+    component: Viewerjs,
+    meta: {
+      title: 'viewerjs',
+    }
   }
-  
+
 ];
 
 export default baseRoute;
