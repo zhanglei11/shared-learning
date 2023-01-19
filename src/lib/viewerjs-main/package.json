@@ -6,11 +6,9 @@
   "module": "dist/viewer.esm.js",
   "browser": "dist/viewer.js",
   "style": "dist/viewer.css",
-  "types": "types/index.d.ts",
   "files": [
     "src",
-    "dist",
-    "types"
+    "dist"
   ],
   "scripts": {
     "build": "npm run build:css && npm run build:js",

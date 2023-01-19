@@ -11,9 +11,10 @@
 import { useRouter, useRoute } from 'vue-router'
 import { ref, onMounted } from 'vue'
 // import Viewer from '@/lib/viewerjs-main'
-// import '@/lib/viewerjs-main/dist/viewer.css'
-import Viewer from 'viewerjs'
-import 'viewerjs/dist/viewer.css'
+import Viewer from '@/lib/viewerjs-main/src/index.js'
+import '@/lib/viewerjs-main/dist/viewer.css'
+// import Viewer from 'viewerjs'
+// import 'viewerjs/dist/viewer.css'
 const imgList = ref([
   'https://img1.baidu.com/it/u=1589914872,3919858087&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889',
   'https://img1.baidu.com/it/u=2580640161,663510376&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=889'

@@ -33,12 +33,6 @@ module.exports = {
       file: `dist/${pkg.name}.esm.js`,
       format: 'esm',
     },
-    // {
-    //   banner,
-    //   name,
-    //   file: `docs/js/${pkg.name}.js`,
-    //   format: 'umd',
-    // },
   ],
   plugins: [
     babel({
