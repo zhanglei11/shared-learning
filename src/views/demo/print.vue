@@ -9,6 +9,7 @@
         ptintSize="large"
         ptintClass="mr20"
       />
+      
       <BzPrintImage
         :ptintValue="123"
         ptintMold="tagsPreview"
